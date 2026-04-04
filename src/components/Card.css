@@ -1,0 +1,28 @@
+.container{
+	padding:2px;
+	margin: 20px;
+}
+
+.content{
+	margin-top:40px;
+}
+
+
+.title{
+	font-weight:bold;
+	
+}
+
+.card{
+	margin:8px 8px;
+	background-color:beige;
+	padding: 8px 8px;
+}
+.card p{
+	margin-top:8px
+}
+
+.cardContent{
+	font-size: 10px;
+	margin: 20px 0;
+}
