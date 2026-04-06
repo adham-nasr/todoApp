@@ -1,0 +1,13 @@
+.container{
+	padding:30px;
+}
+
+select{
+    font-size: 16px;
+}
+
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}

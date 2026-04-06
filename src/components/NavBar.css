@@ -1,0 +1,27 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: var(--background-darker);
+    color:var(--text);
+    border-bottom: 2px solid var(--border);
+}
+nav h1{
+    font-size: 28px;
+    margin: 0;
+}
+.navlinks a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 4px 8px;
+    height: 100%;
+}
+.navlinks a:hover{
+    background-color: var(--border);
+    color: var(--text);
+}
+.navlinks a.active{
+    background-color: var(--primary);
+    color: var(--background-darker);
+}

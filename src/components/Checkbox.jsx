@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import './CheckBox.css'
 function Checkbox({ id,checked, checkboxHandler }) {
 
     const [isChecked, setIsChecked] = useState(checked);
@@ -13,7 +13,7 @@ function Checkbox({ id,checked, checkboxHandler }) {
     console.log("Checkbox " + id + " rendered with checked = " , checked)
     console.log("checkbox " + id + " rendered with checked = " , isChecked)
   return (
-    <div>
+    <div className='checkBox'>
         <label>Completed</label>
         <input type='checkbox' checked={isChecked} onChange={clickHandler}/>
     </div>

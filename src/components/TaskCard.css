@@ -1,0 +1,25 @@
+.title{
+	font-weight:bold;
+    text-decoration: none;
+    color: var(--text);
+    margin-bottom: 50px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.controls button{
+    margin-left:20px;
+}
+.cardContent{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding:20px 40px;
+    max-width: 50vw;
+}
